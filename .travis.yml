@@ -12,4 +12,4 @@ cache:
     $HOME/.m2
     
 script:
-  mvn -f com.examples.hellodocker/pom.xml clean verify -Pdocker
+  mvn clean verify -Pdocker
